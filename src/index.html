@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>Vanilla App Template</title>
   </head>
   <body>
-    
+    <div class="container">
+      <form class="form" action="">
+        <label class="input" for="input" placeholder="Search image..."></label>
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <ul class="gallery"></ul>
+      <button class="load-more" type="button" style="display: none">
+        Load More
+      </button>
+    </div>
 
-    <script type="module" src="./main.js"></script>
+    <script src="./main.js" type="module"></script>
   </body>
 </html>
