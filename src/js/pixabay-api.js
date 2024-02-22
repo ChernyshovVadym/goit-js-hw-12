@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { userInput } from '../main';
 import { page } from '../main';
-let per_page = 60;
+let per_page = 15;
 
 export async function fetchPhotos() {
   const params = new URLSearchParams({
